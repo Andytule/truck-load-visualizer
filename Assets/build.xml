@@ -1,0 +1,35 @@
+<LoadBuild PositionUnits="mm" DimensionUnits="in" WeightUnits="lbs">
+	<Truck MaxWeight="48000" BedLength="636" BedWidth="102" MaxHeight="102"/>
+	<Load LoadId="0001" Bol="81048014" TotalWeight="9504">
+		<Stack Length="636" Width="102" Height="10">
+			<Bundle StackOrder="1" LoadOrder="1" ItemId="M400185567" BolLineNumber="10" Length="288" Width="36" Height="24" Weight="2376" X="62" Z="0">
+				<PieceDimensions Width="6" Height="8"/>
+				<PieceConfig Width="6" Height="3" PieceCount="18" PieceType="shape"/>
+				<Dunnage Height="4" Width="36" Length="8"/>
+			</Bundle>
+			<Bundle StackOrder="2" LoadOrder="3" ItemId="M400185568" BolLineNumber="20" Length="288" Width="12" Height="36" Weight="2376" X="62" Z="0">
+				<PieceDimensions Width="4" Height="6"/>
+				<PieceConfig Width="3" Height="6" PieceCount="20" PieceType="shape"/>
+				<Dunnage Height="3" Width="12" Length="12"/>
+			</Bundle>
+		</Stack>
+		<Stack Length="636" Width="102" Height="10">
+			<Bundle StackOrder="1" LoadOrder="2"  ItemId="M500388323"  BolLineNumber="30"  Length="530"  Width="25.875"  Height="16.094"  Weight="7977"  X="1528.6"  Z="0">
+				<PieceDimensions Width="8.625"  Height="0"/>
+				<PieceConfig Width="3"  Height="2"  PieceCount="5"  PieceType="round"/>
+				<Dunnage Height="10"  Width = "24"  Length="8"/>
+			</Bundle>
+			<Bundle StackOrder="1" LoadOrder="2"  ItemId="M500388323"  BolLineNumber="30"  Length="510"  Width="26.5"  Height="18.1"  Weight="7977"  X="1528.6"  Z="0">
+				<PieceDimensions Width="6.625"  Height="6.625"/>
+				<PieceConfig Width="4"  Height="3"  PieceCount="10"  PieceType="round"/>
+				<Dunnage Height="10"  Width = "24"  Length="8"/>
+			</Bundle>			
+			<Bundle StackOrder="3" LoadOrder="5" ItemId="M400185568" BolLineNumber="20" Length="288" Width="12" Height="36" Weight="2376" X="1628.6" Z="0">
+				<PieceDimensions Width="4" Height="6"/>
+				<PieceConfig Width="3" Height="6" PieceCount="20" PieceType="shape"/>
+				<Dunnage Height="3" Width="12" Length="6"/>
+			</Bundle>
+			
+		</Stack>
+	</Load>
+</LoadBuild>
